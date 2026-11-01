@@ -38,8 +38,8 @@ public class Controller{
             operations.add("generar Doc");
         }
         if(api instanceof Auditable){
-            operations.add("register Event");
-            operations.add("get Event list");
+            operations.add("registerEvent");
+            operations.add("getEvent");
         }
         return operations;
     }
